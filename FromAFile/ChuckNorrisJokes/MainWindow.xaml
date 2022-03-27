@@ -1,0 +1,15 @@
+﻿<Window x:Class="ChuckNorrisJokes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChuckNorrisJokes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cboJokeCategory" HorizontalAlignment="Left" Margin="381,137,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboJokeCategory_SelectionChanged"/>
+        <Label x:Name="lblJoke" Content="" HorizontalAlignment="Center" Margin="0,195,0,0" VerticalAlignment="Top" Width="620" Height="176"/>
+        <Label Content="Chuck Norris Jokes" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label Content="Pick a category" HorizontalAlignment="Left" Margin="238,132,0,0" VerticalAlignment="Top" FontSize="16"/>
+    </Grid>
+</Window>
