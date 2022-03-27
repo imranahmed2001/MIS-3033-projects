@@ -7,9 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox x:Name="cboJokeCategory" HorizontalAlignment="Left" Margin="381,137,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboJokeCategory_SelectionChanged"/>
-        <Label x:Name="lblJoke" Content="" HorizontalAlignment="Center" Margin="0,195,0,0" VerticalAlignment="Top" Width="620" Height="176"/>
-        <Label Content="Chuck Norris Jokes" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" FontSize="48"/>
-        <Label Content="Pick a category" HorizontalAlignment="Left" Margin="238,132,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="/chuck.jpg"/>
+        </Grid.Background>
+        <ComboBox x:Name="cboJokeCategory" HorizontalAlignment="Left" Margin="389,228,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboJokeCategory_SelectionChanged" Height="31"/>
+        <Label x:Name="lblJoke" Content="" HorizontalAlignment="Center" Margin="0,286,0,0" VerticalAlignment="Top" Width="620" Height="62" Background="White"/>
+        <Label Content="Chuck Norris Jokes" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" FontSize="48" Background="White"/>
+        <Label Content="Pick a category" HorizontalAlignment="Left" Margin="239,228,0,0" VerticalAlignment="Top" FontSize="16" Background="White"/>
     </Grid>
 </Window>
