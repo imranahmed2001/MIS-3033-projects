@@ -7,9 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox x:Name="cboCharacters" HorizontalAlignment="Left" Margin="84,195,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.799,0.763" SelectionChanged="cboCharacters_SelectionChanged"/>
-        <Label Content="Rick and Morty API" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" FontSize="48"/>
-        <Label Content="Select a character" HorizontalAlignment="Left" Margin="84,159,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="/rickandmortypicture.webp"/>
+        </Grid.Background>
+        <ComboBox x:Name="cboCharacters" HorizontalAlignment="Left" Margin="84,195,0,0" VerticalAlignment="Top" Width="134" RenderTransformOrigin="0.799,0.763" SelectionChanged="cboCharacters_SelectionChanged" Height="35"/>
+        <Label Content="Rick and Morty API" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" FontSize="48" Background="#FFFAFAFA"/>
+        <Label Content="Select a character" HorizontalAlignment="Left" Margin="84,159,0,0" VerticalAlignment="Top" FontSize="16" Background="White"/>
         <Image x:Name="imgCharacter" HorizontalAlignment="Left" Height="243" Margin="428,159,0,0" VerticalAlignment="Top" Width="298"/>
 
     </Grid>
