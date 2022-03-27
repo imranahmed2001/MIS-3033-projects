@@ -1,0 +1,16 @@
+﻿<Window x:Class="RickAndMorty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RickAndMorty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cboCharacters" HorizontalAlignment="Left" Margin="84,195,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.799,0.763" SelectionChanged="cboCharacters_SelectionChanged"/>
+        <Label Content="Rick and Morty API" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label Content="Select a character" HorizontalAlignment="Left" Margin="84,159,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Image x:Name="imgCharacter" HorizontalAlignment="Left" Height="243" Margin="428,159,0,0" VerticalAlignment="Top" Width="298"/>
+
+    </Grid>
+</Window>
