@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNorrisJokes", "ChuckNo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty", "RickAndMorty\RickAndMorty.csproj", "{9855F62B-F856-4691-A47A-C2CF683B7BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfThronesQuotes", "GameOfThronesQuotes\GameOfThronesQuotes.csproj", "{178FAE36-199F-4CAA-9064-EB04497FD43E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9855F62B-F856-4691-A47A-C2CF683B7BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9855F62B-F856-4691-A47A-C2CF683B7BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9855F62B-F856-4691-A47A-C2CF683B7BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178FAE36-199F-4CAA-9064-EB04497FD43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178FAE36-199F-4CAA-9064-EB04497FD43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178FAE36-199F-4CAA-9064-EB04497FD43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178FAE36-199F-4CAA-9064-EB04497FD43E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

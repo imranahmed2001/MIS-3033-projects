@@ -1,0 +1,18 @@
+﻿<Window x:Class="GameOfThronesQuotes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameOfThronesQuotes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/got.webp"/>
+        </Grid.Background>
+        <Label Content="Game Of Thrones Quotes" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Background="White" FontSize="48"/>
+        <Label x:Name="lblQuote" Content="" HorizontalAlignment="Center" Margin="0,263,0,0" VerticalAlignment="Top" Width="548" Height="76" Background="White" FontSize="14"/>
+        <Button x:Name="btnQuote" Content="See Quote" HorizontalAlignment="Center" Margin="0,191,0,0" VerticalAlignment="Top" Width="124" Height="40" FontSize="14" Background="#FFEC7F60" Click="btnQuote_Click"/>
+
+    </Grid>
+</Window>
