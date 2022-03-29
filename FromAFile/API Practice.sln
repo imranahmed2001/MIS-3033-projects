@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFromAFile", "API_Practice\JsonFromAFile.csproj", "{D1F99075-BA66-4E81-A12D-7C4472829121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonFromAFile", "API_Practice\JsonFromAFile.csproj", "{D1F99075-BA66-4E81-A12D-7C4472829121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNorrisJokes", "ChuckNorrisJokes\ChuckNorrisJokes.csproj", "{2C492241-88A4-47FF-92A0-5F8184A037A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuckNorrisJokes", "ChuckNorrisJokes\ChuckNorrisJokes.csproj", "{2C492241-88A4-47FF-92A0-5F8184A037A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty", "RickAndMorty\RickAndMorty.csproj", "{9855F62B-F856-4691-A47A-C2CF683B7BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RickAndMorty", "RickAndMorty\RickAndMorty.csproj", "{9855F62B-F856-4691-A47A-C2CF683B7BA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfThronesQuotes", "GameOfThronesQuotes\GameOfThronesQuotes.csproj", "{178FAE36-199F-4CAA-9064-EB04497FD43E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfThronesQuotes", "GameOfThronesQuotes\GameOfThronesQuotes.csproj", "{178FAE36-199F-4CAA-9064-EB04497FD43E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogBreeds", "DogBreeds\DogBreeds.csproj", "{DA4F8C29-7B7B-4990-BA98-34F22E525961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{0526AEB6-97C4-4779-942F-7072182E90B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{178FAE36-199F-4CAA-9064-EB04497FD43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{178FAE36-199F-4CAA-9064-EB04497FD43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{178FAE36-199F-4CAA-9064-EB04497FD43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4F8C29-7B7B-4990-BA98-34F22E525961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4F8C29-7B7B-4990-BA98-34F22E525961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4F8C29-7B7B-4990-BA98-34F22E525961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4F8C29-7B7B-4990-BA98-34F22E525961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0526AEB6-97C4-4779-942F-7072182E90B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0526AEB6-97C4-4779-942F-7072182E90B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0526AEB6-97C4-4779-942F-7072182E90B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0526AEB6-97C4-4779-942F-7072182E90B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
